@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title> Projeto 80 </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <center> 
+        <h3> Lista de Convidados </h3>
+        <div id="inserir">
+            <input type="text" placeholder="Insira o nome" id="nome_do_convidado">
+            <button onclick="enviar()" id="botão_enviar">
+            Enviar
+            </button>
+            <br>
+            <div id="tela_dos_nomes"></div>
+        </div>
+        <br>
+        <div id="mostrar">
+            <h3> Lista Completa </h3>
+            <button onclick="mostrar()" id="botão_mostrar">
+                Mostrar
+            </button>
+            <br>
+            <p id="nome_do_convidado_exibido"></p>
+        </div>
+        <br>
+        <div id="mostrar_organizado">
+            <h3> Lista Completa Organizada</h3>
+            <button onclick="organizar()" id="botão_organizar">
+                Organizar
+            </button>
+            <br>
+            <div id="tela_dos_nomes_organizada"></div>
+        </div>
+        <br>
+        <div id="pesquisar">
+            <input type="text" placeholder="Pesquisar o nome" id="nome_buscado">
+            <button onclick="pesquisar()" id="botão_pesquisar">
+                Pesquisar
+            </button>
+            <br>
+            <p id="nome_do_convidado_buscado"></p>
+        </div>
+        <br>
+    </center>
+</body>
+</html>
